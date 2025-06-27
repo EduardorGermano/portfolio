@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button id="menu-toggle" aria-label="Abrir menu">
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+            </button>
+            <ul id="menu" class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h1>Bem-vindo ao meu portfólio</h1>
+            <img src="assets/profile.jpeg" alt="Foto de Eduardo, desenvolvedor web">
+            <p>Sou um desenvolvedor web apaixonado por criar experiências incríveis.</p>
+            <div class="habilidades">
+                <h3>Habilidades:</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-container">
+                <!-- Card 1 -->
+                <div class="projeto-card">
+                    <img src="assets/carregando.jpg" alt="Projeto 1">
+                    <h3>Loading</h3>
+                    <p>Carregando projeto.</p>
+                    <a href="#" class="botao">GitHub</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="projeto-card">
+                    <img src="assets/carregando.jpg" alt="Projeto 2">
+                    <h3>Loading</h3>
+                    <p>Carregando projeto</p>
+                    <a href="#" class="botao">GitHub</a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="projeto-card">
+                    <img src="assets/carregando.jpg" alt="Projeto 3">
+                    <h3>Loading</h3>
+                    <p>Carregando projeto.</p>
+                    <a href="#" class="botao">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form class="form-contato">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
